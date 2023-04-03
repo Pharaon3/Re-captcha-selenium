@@ -1,0 +1,9 @@
+html{-webkit-user-select:none;}
+body{background:#5ca279; width:max-content;}
+h2{margin:0; color:white; font-size:small;}
+h2:hover{color:gold;}
+label,h2,input{cursor:pointer;}
+form{
+border-radius:5px; background:#dce2e8;
+font-size:16px; padding:10px; font-style:italic;
+}

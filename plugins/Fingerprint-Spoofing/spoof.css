@@ -1,0 +1,11 @@
+body{background:#368592; color:white; font-weight:400; font-size:medium;}
+h1{margin:0; color:white; text-align:center; cursor:pointer;}
+fieldset{padding:10px; margin:0 auto; width:320px; border:none;}
+form{margin:9px 0;}
+input[type='text']{float:right;}
+span{text-align:center; display:block;}
+p{position:fixed; bottom:0; left:0; right:0; text-align:center; background-color:#368592; margin:0; padding:0 0 9px;}
+a{font-size:small; display:block; text-align:center; text-decoration-line:none; color:white;}
+.em{color:yellow; display:inline;}
+.em:hover{color:white;}
+img{position:fixed; display:none; border:solid; text-align:center; left:0; right:0; margin:0 auto;}

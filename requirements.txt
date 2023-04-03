@@ -1,0 +1,6 @@
+scrapy
+selenium
+undetected_chromedriver
+openpyxl
+pandas
+selenium_stealth

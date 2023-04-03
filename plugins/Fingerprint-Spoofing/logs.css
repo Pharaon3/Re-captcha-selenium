@@ -1,0 +1,11 @@
+body{background:#368592; color:white; font-weight:400; font-size:medium;}
+h1{margin:0; color:white; text-align:center; cursor:pointer;}
+h5,h6{text-align:center; margin:10px; color:gold;}
+div{display:flex; flex-flow:wrap;}
+p{background:radial-gradient(#0bbfbf, #1e1e231f); margin:10px auto; display:grid; border:double; width:200px;}
+i,img{font-size:small; text-decoration:underline; font-weight:lighter; margin:auto;}
+img{width:100%;}
+a{
+ background-color:#9e1a1a; display:table; height:0; width:18px; font-size:small;
+ text-align:center; margin-left:auto; margin-top:-10px; border-radius:50%; margin-right:-10px; cursor:pointer;
+}
