@@ -200,7 +200,7 @@ class TravelersParser(Parser):
                             page_exist = False
                     except:
                         page_exist = False
-                        
+
                     try:
                         class1 = '//*[@id="lastName"]'
                         if check_exists_by_xpath(class1, self.driver):
@@ -286,15 +286,12 @@ class TravelersParser(Parser):
                             page_exist = False
                     except:
                         page_exist = False
-                    
+
                     try:
-                        class1 = '//*[@id="continue"]'
-                        if check_exists_by_xpath(class1, self.driver):
-                            self.driver.find_element(By.XPATH, class1).send_keys(Keys.ENTER)
-                            time.sleep(random.randint(10, 15))
-                        else:
-                            page_exist = False
-                    except:
+                        self.driver.execute_script('recaptcha_callback()')
+                        time.sleep(random.randint(10, 15))
+                    except Exception as e:
+                        print('err', e)
                         page_exist = False
                     
                     try:
